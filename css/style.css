@@ -14,7 +14,7 @@
   --bg-color: #111111;
   --second-bg-color: #151515;
   --text-color: #fff;
-  --main-color: #c508d6;
+  /* --main-color: #c508d6; */
   --main-color: #1140d9;
 
   --text-color-light: #000000;
@@ -56,7 +56,7 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  border-bottom: 3px solid rgba(245, 233, 233, 0.766);
+  border-bottom: 3px solid rgba(14, 13, 13, 0.766);
   /* transition: backdrop-filter 0.3s ease; */
 
   .logo {
@@ -337,6 +337,7 @@ body.light-mode {
   .header {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
+    border-bottom: #f4ececf5;
     .navbar a {
       color: var(--text-color-light);
     }
